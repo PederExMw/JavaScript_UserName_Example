@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background-color: slateblue;
+}
+
+form {
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 50rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 1rem;
+    background-color: violet;
+}
+
+.isim {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5;
+}
+
+input {
+    font: inherit;
+    font-size: 1.1rem;
+    padding: 0.35rem;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    width: 25rem;
+    border-radius: 4px;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+input:focus {
+    background-color: rgb(162, 170, 150);
+}
+
+button {
+    font: inherit;
+    background-color: cyan;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    padding: 0.3rem 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+    border-color: thistle;
+}
+
+#satir {
+    color: silver;
+}
+
+input.warning {
+    background-color: rosybrown;
+}
+
+#girilenSatir.warning {
+
+    color: red;
+}
